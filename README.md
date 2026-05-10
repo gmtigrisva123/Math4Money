@@ -1,241 +1,338 @@
-# Math4Money
-### Applied Mathematics for Personalized Financial Education
+<div align="center">
 
-Math4Money is a research-driven EdTech initiative that models children’s financial decision-making behavior as a quantitative system using behavioral vectors, clustering algorithms, and personalized learning optimization.
+<img src="assets/math4money-logo.png" width="150" alt="Math4Money Logo"/>
 
-The project aims to transform financial literacy education for children aged 6–12 through data-driven personalization, behavioral analysis, and applied mathematics.
+# 🧠 Math4Money
+
+## Chat a Choice. Get a Financial Profile. Personalized, Data-Driven & Self-Evolving.
 
 ---
 
-## 🌍 The Problem
+### *Just complete one quiz:* **"What kind of financial thinker am I?" → done.**
+
+<br/>
+
+<table>
+<tr>
+<td width="45%" align="center">
+  <img src="assets/math4money-app-preview.png" width="100%" alt="Math4Money App Preview"/>
+  <br/>
+  <b>Behavioral Quiz → Financial Personality</b>
+</td>
+<td width="55%" align="center">
+  <img src="assets/math4money-research-architecture.png" width="100%" alt="Math4Money Research Architecture"/>
+  <br/>
+  <b>Behavioral Vectors → Clustering → Personalized Learning Path</b>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Research-Applied%20Mathematics-2e7d32?style=flat-square"/>
+<img src="https://img.shields.io/badge/Behavioral%20Economics-Children%20Finance-f97316?style=flat-square"/>
+<img src="https://img.shields.io/badge/Frontend-React-61dafb?style=flat-square"/>
+<img src="https://img.shields.io/badge/Model-Clustering%20Algorithms-7c3aed?style=flat-square"/>
+<img src="https://img.shields.io/badge/Education-Financial%20Literacy-15803d?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Research%20Prototype-success?style=flat-square"/>
+
+<br/>
+<br/>
+
+<a href="#-generated-research-showcase">🏆 Research Showcase</a> ·
+<a href="#-core-system-pipeline">🧭 System Pipeline</a> ·
+<a href="#-mathematical-model">📊 Mathematical Model</a> ·
+<a href="#-social-impact">🌍 Social Impact</a> ·
+<a href="#-roadmap">🛠️ Roadmap</a>
+
+</div>
+
+---
+
+## 🏆 Generated Research Showcase
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="assets/research-paper-preview.png" width="100%" alt="Research Paper Preview"/>
+</td>
+<td width="75%">
+
+### Modeling Financial Behavior in Students Using Behavioral Vectors and Clustering Algorithms
+
+**Math4Money** is a research-driven EdTech project that models the financial decision-making behavior of children aged **6–12** as a quantitative system.
+
+The project converts answers from financial decision-making scenarios into a behavioral vector:
+
+```math
+F = (SC, SB, GM, PA)
+```
+
+where each dimension represents a core financial capability:
+
+| Variable | Meaning |
+|---|---|
+| **SC** | Spending Control |
+| **SB** | Saving Behavior |
+| **GM** | Giving Mindset |
+| **PA** | Planning Ability |
+
+This vector is then used to classify learning needs, identify financial behavior patterns, and recommend personalized financial literacy lessons.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌍 Why Math4Money?
 
 Children today grow up surrounded by:
-- online shopping
-- in-game purchases
-- algorithmic advertising
-- instant digital spending
 
-Yet most financial education systems remain:
-- generalized
-- non-personalized
-- theory-heavy
-- disconnected from real behavioral patterns
+- mobile games and in-app purchases  
+- online shopping and digital payments  
+- social media advertising  
+- instant gratification and impulse spending  
 
-As a result, many children:
-- struggle with impulse spending
-- lack long-term planning habits
-- fail to develop healthy financial behaviors early in life
+Yet most financial education remains generalized and non-personalized.
 
-Math4Money addresses this challenge by applying mathematical modeling and behavioral data analysis to financial education.
+**Math4Money asks a deeper research question:**
+
+> Can children’s financial behavior be mathematically modeled and used to personalize financial education?
 
 ---
 
-# 🧠 Core Idea
-
-Instead of teaching all students identically, Math4Money asks:
-
-> “Can financial behavior itself be modeled mathematically?”
-
-The platform converts financial decisions into behavioral vectors, allowing personalized financial learning pathways to emerge from data.
-
----
-
-# 📊 Behavioral Vector Model
-
-Each student is represented as a quantitative behavioral vector:
-
-F = (SC, SB, GM, PA)
-
-Where:
-
-- **SC** → Spending Control
-- **SB** → Saving Behavior
-- **GM** → Giving Mindset
-- **PA** → Planning Ability
-
-These dimensions are extracted from:
-- scenario-based surveys
-- decision simulations
-- behavioral financial quizzes
-
-The resulting vector becomes the student’s:
-- financial personality profile
-- learning profile
-- recommendation basis
-
----
-
-# 🔬 Research Framework
-
-Math4Money combines concepts from:
-
-- Applied Mathematics
-- Behavioral Economics
-- Data Science
-- Educational Psychology
-- Optimization Theory
-
----
-
-# ⚙️ System Pipeline
+## 🧭 Core System Pipeline
 
 ```text
-Survey Data
-    ↓
+Financial Decision Scenarios
+            ↓
+Behavior Encoding
+            ↓
 Behavioral Vector Construction
-    ↓
+            ↓
 Clustering Financial Personalities
-    ↓
-Behavior Prediction
-    ↓
-Personalized Learning Optimization
+            ↓
+Weakness & Strength Detection
+            ↓
+Personalized Learning Recommendation
+            ↓
+Parent / Teacher Insight Report
 ```
 
 ---
 
-# 🧩 Mathematical Models
+## 📊 Mathematical Model
 
-## 1. Behavioral Clustering
+### 1. Behavioral Vector Model
 
-Using clustering algorithms such as:
+Each student is represented by a financial behavior vector:
 
-- K-Means Clustering
-- Vector Similarity Analysis
+```math
+F_i = (SC_i, SB_i, GM_i, PA_i)
+```
 
-The system identifies patterns such as:
-
-- Impulsive Spender
-- Balanced Saver
-- Strategic Planner
-- Community-Oriented Giver
-
-Unlike rigid labeling systems, Math4Money evaluates balance across all four financial dimensions.
+This allows each child’s financial behavior to be analyzed as a point in a multidimensional behavioral space.
 
 ---
 
-## 2. Probability & Prediction Models
+### 2. Clustering Model
 
-The platform estimates behavioral tendencies such as:
+Math4Money can use clustering algorithms such as:
 
-- probability of impulsive spending
-- saving likelihood
-- planning consistency
+- K-Means Clustering  
+- Vector Similarity  
+- Distance-Based Grouping  
 
-Example:
+to identify behavioral profiles such as:
 
-P(Spend | Financial Personality)
+| Profile | Dominant Trait |
+|---|---|
+| 🐿️ Saving Squirrel | Strong saving tendency |
+| 🐰 Fast-Spending Rabbit | Impulsive spending tendency |
+| 🐜 Planning Ant | Strong planning ability |
+| 🐻 Giving Bear | Strong community-sharing mindset |
 
-This transforms financial education into a predictive behavioral system.
+The goal is **not** to label children rigidly, but to help them develop balance across all four financial capabilities.
 
 ---
 
-## 3. Learning Path Optimization
+### 3. Learning Path Optimization
 
-The platform optimizes educational pathways by maximizing learning impact under constraints such as:
+The platform recommends lessons by matching each child’s behavioral needs with the most relevant financial literacy content.
 
-- attention span
-- learning time
-- behavioral weaknesses
-
-Optimization Goal:
-
-maximize educational impact
-
+```text
+maximize learning impact
 subject to:
+- attention span
 - time constraints
-- cognitive load
-- behavioral balance objectives
+- behavioral weakness
+- lesson relevance
+```
 
 ---
 
-## 📈 Personalized Education Engine
+## 🖥️ Platform Preview
 
-Based on behavioral analysis, the system generates:
-
-- personalized reports
-- financial habit insights
-- recommended lessons
-- behavioral adjustment suggestions
-
-The long-term goal is to create a fully adaptive financial education ecosystem.
-
----
-
-# 🏫 Social Impact
-
-Math4Money aims to:
-
-- improve early financial literacy
-- help children develop healthy financial habits
-- support parents with actionable behavioral insights
-- reduce long-term impulsive financial behavior
-
-The project also seeks to expand financial education access for:
-- visually impaired students
-- underserved communities
-- rural schools
+<table>
+<tr>
+<td align="center" width="50%">
+  <img src="assets/student-dashboard.png" width="100%" alt="Student Dashboard"/>
+  <br/>
+  <b>Student Behavioral Dashboard</b>
+</td>
+<td align="center" width="50%">
+  <img src="assets/parent-report.png" width="100%" alt="Parent Report"/>
+  <br/>
+  <b>Personalized Parent Insight Report</b>
+</td>
+</tr>
+</table>
 
 ---
 
-# 🚀 Future Research Directions
+## 🧠 How It Works
 
-Potential research areas include:
-
-- Behavioral Economics in Childhood
-- Educational Data Mining
-- Human Decision Modeling
-- AI-Driven Personalized Education
-- Financial Behavior Simulation
-
-Potential paper direction:
-
-> “Modeling Financial Behavior in Students Using Behavioral Vectors and Clustering Algorithms.”
+| Step | Description |
+|---|---|
+| **1. Quiz** | Students answer financial decision-making scenarios. |
+| **2. Scoring** | Each choice is converted into numerical behavioral data. |
+| **3. Vectorization** | The system builds a four-dimensional financial behavior vector. |
+| **4. Clustering** | Students are grouped by similar behavioral patterns. |
+| **5. Recommendation** | The platform recommends lessons based on strengths and weaknesses. |
+| **6. Report** | Parents and teachers receive actionable insights. |
 
 ---
 
-# 💻 Technology Stack
+## 🌍 Social Impact
 
-Frontend:
-- React
-- CSS
-- Interactive dashboards
+Math4Money aims to help children:
 
-Backend:
-- Behavioral scoring engine
-- Recommendation logic
-- Classification algorithms
+- build saving habits early  
+- make responsible spending decisions  
+- understand planning and trade-offs  
+- develop community-minded financial behavior  
+- become more financially independent in the long term  
 
-Future expansion:
-- Machine learning recommendation system
-- Real-time adaptive learning
-- Longitudinal behavioral tracking
+The project also aims to expand access to financial education for:
 
----
-
-# 📚 Educational Philosophy
-
-Math4Money is built on one central belief:
-
-> Financial literacy is not only about money.
-> It is about decision-making, self-control, planning, and responsibility.
-
-The project seeks to combine mathematics with human behavior to build more thoughtful future citizens.
+- visually impaired students  
+- underserved communities  
+- rural schools  
+- low-income families  
 
 ---
 
-# 👨‍🔬 Founder & Lead Researcher
+## 🧪 Research Direction
 
-Việt Anh  
-Founder & Lead Researcher, Math4Money
+Potential research paper:
+
+> **Modeling Financial Behavior in Students Using Behavioral Vectors and Clustering Algorithms**
+
+Possible sections:
+
+1. Introduction  
+2. Related Work  
+3. Behavioral Vector Model  
+4. Data Collection  
+5. Clustering Methodology  
+6. Results & Discussion  
+7. Educational Implications  
+8. Limitations & Future Work  
+
+---
+
+## ⚙️ Tech Stack
+
+<table>
+<tr>
+<td><b>Frontend</b></td>
+<td>React, CSS, Dashboard UI</td>
+</tr>
+<tr>
+<td><b>Data Model</b></td>
+<td>Behavioral Vectors, Scoring Rules, Clustering</td>
+</tr>
+<tr>
+<td><b>Education Engine</b></td>
+<td>Personalized Lesson Recommendation</td>
+</tr>
+<tr>
+<td><b>Future AI Layer</b></td>
+<td>Adaptive Recommendation, Prediction, Longitudinal Tracking</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Roadmap
+
+- [x] Define behavioral finance framework  
+- [x] Build first React landing page  
+- [x] Design financial personality model  
+- [ ] Create full quiz engine  
+- [ ] Build scoring algorithm  
+- [ ] Add personalized learning recommendation  
+- [ ] Collect pilot data  
+- [ ] Run clustering analysis  
+- [ ] Publish research whitepaper  
+- [ ] Conduct community workshops  
+
+---
+
+## 📂 Repository Structure
+
+```text
+Math4Money/
+│
+├── assets/
+│   ├── math4money-logo.png
+│   ├── math4money-app-preview.png
+│   ├── math4money-research-architecture.png
+│   ├── student-dashboard.png
+│   └── parent-report.png
+│
+├── frontend/
+│   ├── Math4MoneyLandingPage.jsx
+│   └── Math4MoneyLandingPage.css
+│
+├── research/
+│   ├── behavioral-vector-model.md
+│   ├── clustering-methodology.md
+│   └── research-notes.md
+│
+├── data/
+│   └── sample-survey-schema.csv
+│
+└── README.md
+```
+
+---
+
+## 👨‍🔬 Founder & Lead Researcher
+
+**Việt Anh**  
+Founder & Lead Researcher, Math4Money  
 
 Focused on:
-- Applied Mathematics
-- Behavioral Modeling
-- Educational Technology
-- Social Impact Research
+
+- Applied Mathematics  
+- Behavioral Economics  
+- Educational Technology  
+- Data-Driven Social Impact  
 
 ---
 
-# ⭐ Vision
+<div align="center">
 
-To build a data-driven financial education platform capable of helping millions of children develop healthier financial behaviors through mathematics, behavioral science, and personalized learning.
+## ⭐ Vision
+
+**To build a data-driven financial education platform that helps children develop healthier financial habits through mathematics, behavioral science, and personalized learning.**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Built%20for-Children%206--12-f97316?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Mission-Financial%20Literacy-15803d?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Approach-Research%20Driven-2563eb?style=for-the-badge"/>
+
+</div>
