@@ -284,17 +284,17 @@ Possible sections:
 
 ```text
 Math4Money/
-│
-├── assets/
-│   ├── math4money-logo.png
-│   ├── math4money-app-preview.png
-│   ├── math4money-research-architecture.png
-│   ├── student-dashboard.png
-│   └── parent-report.png
-│
-├── frontend/
-│   ├── Math4MoneyLandingPage.jsx
-│   └── Math4MoneyLandingPage.css
+├── src/
+|   ├── assets/
+│     ├── math4money-logo.png
+│     ├── math4money-app-preview.png
+│     ├── math4money-research-architecture.png
+│     ├── student-dashboard.png
+│     └── parent-report.png
+│   ├── Intro.jsx
+│   ├── Intro.css
+|   ├── index.css
+|   ├── main.jsx
 │
 ├── research/
 │   ├── behavioral-vector-model.md
@@ -311,7 +311,7 @@ Math4Money/
 
 ## 👨‍🔬 Founder & Lead Researcher
 
-**Việt Anh**  
+**Viet Anh**  
 Founder & Lead Researcher, Math4Money  
 
 Focused on:
