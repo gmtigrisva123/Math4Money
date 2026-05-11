@@ -267,9 +267,9 @@ Possible sections:
 
 ## 🛠️ Roadmap
 
-- [x] Define behavioral finance framework  
-- [x] Build first React landing page  
-- [x] Design financial personality model  
+- [ ] Define behavioral finance framework  
+- [ ] Build first React landing page  
+- [ ] Design financial personality model  
 - [ ] Create full quiz engine  
 - [ ] Build scoring algorithm  
 - [ ] Add personalized learning recommendation  
