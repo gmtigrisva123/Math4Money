@@ -40,14 +40,11 @@ export default function Home(){
           </div>
 
           <div className="hero-right">
-            <div className="badge-card">
-              <div className="badge-title">Trò chơi thú vị</div>
-              <div className="badge-sub">+50 XP</div>
-            </div>
-            <div className="floating-coin coin-1">🪙</div>
-            <div className="floating-coin coin-2">🪙</div>
+            {/* badge removed per request */}
+            {/* floating coins removed per request */}
             <Carousel />
-            <div className="mascot" style={{position:'absolute',right:12,bottom:12,fontSize:72}}>🐿️</div>
+            <img className="hero-image" src="/assets/pictures/0265a5a0-b67b-4edd-8ca7-34efaa882636.png" alt="hero squirrel" style={{width:220,height:220,objectFit:'contain'}} />
+            {/* mascot removed per request */}
           </div>
         </section>
 

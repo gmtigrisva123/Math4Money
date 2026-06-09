@@ -1,26 +1,25 @@
 "use client"
 import React, {useEffect, useState} from 'react'
 
-const slides = [
-  {title:'Trò chơi thú vị', subtitle:'+50 XP', color:'#fff7ed'},
-  {title:'Bài học mới', subtitle:'+100 XP', color:'#eef2ff'},
-  {title:'Nhiệm vụ thực tế', subtitle:'+120 XP', color:'#ecfdf5'},
-]
+const slides = [] // slides removed per request
 
 export default function Carousel(){
   const [index,setIndex] = useState(0)
   useEffect(()=>{
+    if(slides.length < 2) return
     const t = setInterval(()=>setIndex(i=> (i+1)%slides.length),3500)
     return ()=>clearInterval(t)
   },[])
+
+  if(slides.length === 0) return null
 
   return (
     <div className="carousel" aria-roledescription="carousel">
       <div className="slides" style={{transform:`translateX(${-index*100}%)`}}>
         {slides.map((s,idx)=> (
           <div className="slide" key={idx} aria-hidden={idx!==index}>
-            <div className="slide-card" style={{background:s.color}}>
-              <div className="slide-icon">🎮</div>
+            <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',background:'transparent',boxShadow:'none'}}>
+              <div className="slide-icon"><img src="/assets/pictures/0265a5a0-b67b-4edd-8ca7-34efaa882636.png" alt="squirrel" style={{width:96,height:96,objectFit:'contain'}}/></div>
               <div className="slide-title">{s.title}</div>
               <div className="slide-sub">{s.subtitle}</div>
             </div>
