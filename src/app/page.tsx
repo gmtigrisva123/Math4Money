@@ -34,7 +34,7 @@ export default function Home(){
                 "Mathematics is the tool. Finance is the journey. The future is the reward."
               </em>
             </h1>
-            <p className="lead">Math4Money là sản phẩm ứng dụng trên nền tảng web và máy tính bảng dành cho học sinh từ 8–12 tuổi. Thông qua đó, hệ thống không chỉ xây dựng lộ trình giáo dục tài chính cá nhân hóa cho từng trẻ, mà còn hỗ trợ giáo viên và phụ huynh nhận diện sớm xu hướng, thói quen tài chính của học sinh, từ đó có định hướng giáo dục phù hợp, hiệu quả và nhất quán giữa nhà trường và gia đình.</p>
+            <p className="lead">Math4Money là ứng dụng giáo dục tài chính dành cho học sinh 8-12 tuổi. Thông qua các khảo sát, tình huống thực tế và trò chơi tương tác, trẻ khám phá tính cách tài chính của mình, phát triển kỹ năng tiết kiệm, chi tiêu, lập kế hoạch và sẻ chia để chuẩn bị cho tương lai.</p>
             <div className="ctas">
               <button className="btn primary">Bắt đầu khảo sát miễn phí</button>
               <button className="btn">Xem lộ trình mẫu</button>
