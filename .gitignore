@@ -1,24 +1,50 @@
+# Node dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Vercel / deployment
+.vercel/
+
+# Local env files (do NOT ignore .env.example)
+.env.local
+.env.*.local
+
+# TypeScript build cache
+dist/
+lib/
+*.tsbuildinfo
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
+logs/
+*.log
 
-node_modules
-dist
-dist-ssr
-*.local
+# Testing / coverage
+coverage/
+.nyc_output/
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+ehthumbs.db
+
+# Misc caches
+.cache/
+.parcel-cache/
+/.cache
+
+# Optional: local build artifacts
+dist/
+build/

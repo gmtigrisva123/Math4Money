@@ -1,0 +1,9 @@
+src/
+  app/
+  components/
+    layout/
+    home/
+  lib/
+public/
+  images/
+  icons/
