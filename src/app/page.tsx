@@ -26,8 +26,15 @@ export default function Home(){
         <section className="hero">
           <div className="hero-left">
             <div className="eyebrow">Nền tảng giáo dục tài chính cá nhân hóa cho trẻ 6–12 tuổi</div>
-            <h1 className="title">Học Toán để hiểu tiền. <br/>Hiểu tiền để làm chủ tương lai.</h1>
-            <p className="lead">Math4Money giúp trẻ khám phá tính cách tài chính và xây dựng thói quen thông minh thông qua các bài học, trò chơi và tình huống thực tế.</p>
+            <h1 className="title">
+              <p>Toán học là công cụ</p>
+              <p>Tài chính là hành trình</p>
+              <p>Tương lai là phần thưởng</p>
+              <em style={{display:'block',marginTop:12,fontSize:18,color:'var(--muted)'}}>
+                "Mathematics is the tool. Finance is the journey. The future is the reward."
+              </em>
+            </h1>
+            <p className="lead">Math4Money là sản phẩm ứng dụng trên nền tảng web và máy tính bảng dành cho học sinh từ 8–12 tuổi. Thông qua đó, hệ thống không chỉ xây dựng lộ trình giáo dục tài chính cá nhân hóa cho từng trẻ, mà còn hỗ trợ giáo viên và phụ huynh nhận diện sớm xu hướng, thói quen tài chính của học sinh, từ đó có định hướng giáo dục phù hợp, hiệu quả và nhất quán giữa nhà trường và gia đình.</p>
             <div className="ctas">
               <button className="btn primary">Bắt đầu khảo sát miễn phí</button>
               <button className="btn">Xem lộ trình mẫu</button>
@@ -51,18 +58,48 @@ export default function Home(){
         <section>
           <h3 style={{marginTop:12,marginBottom:12}}>Hành trình 4 bước khám phá tài chính</h3>
           <div className="steps">
-            <div className="step"><strong>1.</strong> Làm bài đánh giá</div>
-            <div className="step"><strong>2.</strong> AI phân tích tính cách</div>
-            <div className="step"><strong>3.</strong> Tạo lộ trình cá nhân hóa</div>
-            <div className="step"><strong>4.</strong> Hình thành thói quen tốt</div>
+            <div className="step">
+              <strong>1.</strong> Làm bài đánh giá
+              <ul>
+                <li>Trả lời 20-25 câu hỏi vui nhộn về thói quen chi tiêu, tiết kiệm, lập kế hoạch và chia sẻ.</li>
+              </ul>
+              <img src="/assets/pictures/assessmentlogo.png" alt="assessment logo" style={{width:20,height:20,objectFit:'contain',marginTop:12}} />
+            </div>
+            <div className="step">
+              <strong>2.</strong> AI phân tích tính cách
+              <ul>
+                <li>AI sẽ phân tích kết quả bài đánh giá để xác định tính cách tài chính nổi bật của trẻ.</li>
+              </ul>
+              <img src="/assets/pictures/ailogo.png" alt="AI logo" style={{width:20,height:20,objectFit:'contain',marginTop:12}} />
+            </div>
+            <div className="step">
+              <strong>3.</strong> Tạo lộ trình cá nhân hóa
+              <ul>
+                <li>Dựa trên kết quả phân tích, chúng tôi sẽ tạo ra một lộ trình học tập cá nhân hóa phù hợp với từng trẻ.</li>
+              </ul>
+            </div>
+            <div className="step">
+              <strong>4.</strong> Hình thành thói quen tốt
+              <ul>
+                <li>Thông qua các bài học và trò chơi tương tác, trẻ sẽ dần hình thành những thói quen tài chính tích cực.</li>
+              </ul>
+            </div>
           </div>
 
           <h3 style={{marginTop:18,marginBottom:12}}>Khám phá 4 tính cách tài chính</h3>
           <div className="features">
-            <div className="feature">Sóc Tiết Kiệm</div>
-            <div className="feature">Sóc Kế Hoạch</div>
-            <div className="feature">Sóc Chia Sẻ</div>
-            <div className="feature">Sóc Khám Phá</div>
+            <div className="feature">
+              Sóc Tiết Kiệm
+            </div>
+            <div className="feature">
+              Thỏ mua nhanh
+            </div>
+            <div className="feature">
+              Kiến Lập Kế Hoạch
+            </div>
+            <div className="feature">
+              Gấu Chia sẻ
+            </div>
           </div>
 
           <div className="stats">

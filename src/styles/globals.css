@@ -82,3 +82,8 @@ header.site-header{display:flex;align-items:center;justify-content:space-between
   .hero-right{width:100%;height:260px}
   .steps,.features{grid-template-columns:repeat(2,1fr)}
 }
+
+
+.step ul {
+  padding-left: 20px;
+}
