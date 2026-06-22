@@ -48,3 +48,6 @@ ehthumbs.db
 # Optional: local build artifacts
 dist/
 build/
+
+# Local virtual environment
+.venv/
